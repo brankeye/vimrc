@@ -28,6 +28,7 @@ set number
 set hlsearch
 set termguicolors
 set t_ut=
+set clipboard=unnamed
 
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
