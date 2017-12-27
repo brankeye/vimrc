@@ -10,6 +10,7 @@ Plug 'mxw/vim-jsx'
 Plug 'Townk/vim-autoclose'
 Plug 'bling/vim-airline'
 Plug 'djoshea/vim-autoread'
+Plug 'ajh17/VimCompletesMe'
 
 call plug#end()
 
@@ -51,3 +52,6 @@ autocmd vimenter * NERDTree
 
 let g:jsx_ext_required = 0
 
+set hidden
+let g:racer_cmd = "~/.cargo/bin/racer"
+let g:racer_experimental_completer=1
